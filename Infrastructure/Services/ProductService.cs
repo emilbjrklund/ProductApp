@@ -5,7 +5,7 @@ namespace Infrastructure.Services;
 
 public class ProductService : IProductService
 {
-    private List<Product> _productList = [];
+    private readonly List<Product> _productList = [];
 
     public bool AddProduct(ProductCreateRequest newProduct)
     {

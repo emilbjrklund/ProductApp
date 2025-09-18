@@ -22,7 +22,7 @@ public class MenuService
             switch (menuOption)
             {
                 case "1":
-           
+
                     break;
 
                 case "2":
@@ -42,11 +42,5 @@ public class MenuService
                     break;
             }
         }
-        }
-        }
-        }
-        }
     }
-
-
 }
